@@ -54,9 +54,9 @@ public class ipconv {
 	int n = Integer.parseInt(l.get(0));
 	if(count==4){
 	if (n<128&&n>=0){	System.out.println("\nCLASS : A");}
-	else if (n<192&&n>=128){	System.out.println("\nCLASS : B");}
-	else if (n<224&&n>=192){	System.out.println("\nCLASS : C");}
-	else if (n<240&&n>=224){	System.out.println("\nCLASS : D");}
+	else if (n<192&&n>=128){	System.out.println("\nClass : B");}
+	else if (n<224&&n>=192){	System.out.println("\nClass : C");}
+	else if (n<240&&n>=224){	System.out.println("\nClass : D");}
 	else System.out.println("\nCLASS : E");
 	}
 	
